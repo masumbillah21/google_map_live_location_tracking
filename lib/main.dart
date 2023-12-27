@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Google Map',
       theme: ThemeData(useMaterial3: false),
-      home: HomeScreen(),
+      home: const HomeScreen(),
     );
   }
 }
